@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<!-- ヘッダー -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const hamburger = document.querySelector('.hamburger-menu');
+        const sidebar = document.querySelector('.sidebar');
+    
+        hamburger.addEventListener('click', function() {
+            sidebar.classList.toggle('active'); 
+        });
+    });
+</script>
+
+<head>
+  <meta charset="utf-8">
+  <title>若宮 佑真のホームページ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/sidebar.css">
+  <link rel="stylesheet" href="css/top.css">
+</head>
+
+<body>
+<!-- ハンバーガーメニューアイコン -->
+<div class="hamburger-menu">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+<!-- サイドバー -->
+<div class="sidebar">
+  <ul>
+      <li class="sideLink sideLinkTop">
+          <a href="#">
+              トップ
+          </a>
+      </li>
+      <li class="sideLink sideLinkMovie">
+          <a href="#">
+              好きなアニメ
+          </a>
+      </li>
+      <li class="sideLink sideLinkDrama">
+          <a href="#">
+              好きなアニメ映画
+          </a>
+      </li>
+      <li class="sideLink sideLinkStage">
+          <a href="#">
+              好きな漫画
+          </a>
+      </li>
+      <li class="sideLink sideLinkPhotobook">
+          <a href="#">
+              写真集
+          </a>
+      </li>
+      <li class="sideLink sideLinkBook">
+          <a href="#">
+              好きな本
+          </a>
+      </li>
+      <li class="sideLink sideLinkManager">
+          <a href="#">
+              管理者
+          </a>
+      </li>
+  </ul>
+</div>
+
+<!-- メインカラム -->
+<div class="mainColumn">
+    <h1>
+        若宮 佑真のホームページ
+    </h1>
+  <div class="mainColumnTop">
+      <div class="topBody">
+          <!-- 左エリア -->
+          <div class="topBodyLeft">
+              <img class="topProfileImg" src="./src/image/profile.webp" />
+              <div class="topProfileItem">
+                  <div>
+                      若宮 佑真（わかみや ゆうま）
+                  </div>
+                  <div>
+                      生年月日 2004年6月26日
+                  </div>
+                  <div>
+                      血液型 O型
+                  </div>
+              </div>
+              <div class="topProfileItem">
+                If you have any enquiries regarding my hobby or detail, or would like to make an enquiry concerning future projects, please do not hesitate to contact me through the following email address.
+              </div>
+              <div class="topProfileItem">
+                  mail:<a href="https://mail.google.com/mail/?view=cm&to=23im0155@i-u.ac.jp&su=お問い合わせ&body=はじめまして 若宮です。%0D%0Aよろしくお願いします。
+                  ">23im0155@i-u.ac.jp</a>
+              </div>
+              <div class="topProfileItem">
+                  <div>
+                      所属:
+                  </div>
+                  <div>
+                      情報経営イノベーション専門職大学
+                  </div>
+                  <div>
+                      131-0044
+                  </div>
+                  <div>
+                      東京都墨田区文花１丁目１８−１３
+                  </div>
+              </div>
+          </div>
+          <!-- 右エリア -->
+          <div class="topBodyRight">
+              <div class="topInfoHeader">
+                  ★★★ 詳細情報 ★★★
+              </div>
+              <div class="topInfoItem">
+                  <div>
+                      ・好きなアニメ
+                  </div>
+                  <div class="topInfoItemBody">
+                      <div>
+                         <a href="https://sh-anime.shochiku.co.jp/bluearchive-anime/">ブルーアーカイブ The Animation</a><span class="textEmphasized">New!</span>
+                      </div>
+                      <div>
+                        2024年4月7日より　毎週日曜 23：45～
+                      </div>
+                      <!-- 動画がおもすぎて入らないためyoutubeから埋め込み -->
+                        <div class="movie-video">
+                            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/Q4sWF6z9TuE" title="ブルーアーカイブ アニメ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      <div>
+                          <a href="https://toaru-project.com/index_3/">2008年「とある魔術の禁書目録」</a>
+                      </div>
+                      <div>
+                        2022/3/24（木）より　Huluにて配信開始
+                      </div>
+                  </div>
+              </div>
+              <div class="topInfoItem">
+                  <div>
+                      ・好きなアニメ映画
+                  </div>
+                  <div class="topInfoItemBody">
+                      <div>
+                          「<a href="https://sao-p.net/">劇場版 ソードアート・オンライン -プログレッシブ- 冥き夕闇のスケルツォ</a>」
+                      </div>
+                  </div>
+              </div>
+              <div class="topInfoItem">
+                  <div>
+                      ・参考にしたページ
+                  </div>
+                  <div class="topInfoItemBody">
+                      <div>
+                          「<a href="http://abehiroshi.la.coocan.jp/">阿部 寛のホームページ</a>」
+                      </div>
+                      <div>
+                          「<a href="https://note.com/programming_room/n/ne10164a170e8">阿部寛のホームページの作り方【Web制作/HTML/CSS/初心者向け】</a>」
+                      </div>
+                  </div>
+              </div>
+              <div class="topInfoItem">
+                  <div>
+                      当サイトの内容、テキスト、画像等の無断転載・無断使用を固く禁じます。
+                  </div>
+                  <div>
+                      また、まとめサイト等への引用を厳禁致します。
+                  </div>
+                  <div>
+                      お問い合わせはメールでご連絡をお願い致します。
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </div>
+</div>
+</body>
+
+</html>

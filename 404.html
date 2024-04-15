@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>ページが見つかりません - 若宮 佑真のホームページ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/sidebar.css">
+</head>
+
+<!-- ヘッダー -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      const hamburger = document.querySelector('.hamburger-menu');
+      const sidebar = document.querySelector('.sidebar');
+  
+      hamburger.addEventListener('click', function() {
+          sidebar.classList.toggle('active'); 
+      });
+  });
+</script>
+
+<body>
+<!-- ハンバーガーメニューアイコン -->
+<div class="hamburger-menu">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+<!-- サイドバー -->
+<div class="sidebar">
+  <ul>
+      <li class="sideLink sideLinkTop">
+          <a href="#">
+              トップ
+          </a>
+      </li>
+      <li class="sideLink sideLinkMovie">
+          <a href="#">
+              好きなアニメ
+          </a>
+      </li>
+      <li class="sideLink sideLinkDrama">
+          <a href="#">
+              好きなアニメ映画
+          </a>
+      </li>
+      <li class="sideLink sideLinkStage">
+          <a href="#">
+              好きな漫画
+          </a>
+      </li>
+      <li class="sideLink sideLinkPhotobook">
+          <a href="#">
+              写真集
+          </a>
+      </li>
+      <li class="sideLink sideLinkBook">
+          <a href="#">
+              好きな本
+          </a>
+      </li>
+      <li class="sideLink sideLinkManager">
+          <a href="#">
+              管理者
+          </a>
+      </li>
+  </ul>
+</div>
+<!-- メインコンテンツ -->
+<div class="mainColumn">
+  <h1>404 - ページは(無いです)</h1>
+  <div class="mainColumnInner">
+      <p>無いです(迫真)</p>
+      <p><a href="/">ホームに戻る</a></p>
+      <img src="./src/image/naidesu.gif" alt="ページが見つかりません" style="height: 50%; height: auto;">
+  </div>
+</div>
+</body>
+</html>

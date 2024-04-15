@@ -1,0 +1,79 @@
+.mainColumn{
+  background-image: url(../src/image/background.png);
+  background-repeat: repeat;
+}
+
+.topProfileImg{
+  width: 80%;
+}
+
+.topBody{
+  display: flex;
+}
+
+.topBodyLeft{
+  width: 40%;
+  padding-left: 2rem;
+}
+
+.topBodyRight{
+  width: 60%;
+  padding-right: 2rem;
+}
+
+.topProfileItem{
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  width: 70%;
+}
+
+.movie-video video {
+  width: 50%;
+  height: auto; 
+}
+
+.topInfoHeader{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.topInfoItem{
+  border-top: 0.5px solid #000000;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.textEmphasized{
+  color: rgb(232, 38, 38);
+}
+
+.topInfoItemBody{
+  margin-left: 4rem;
+}
+
+@media (max-width: 768px) {
+  .mainColumnTop{
+    margin-top: 5rem;
+  }
+  .topBody{
+    flex-direction: column;
+  }
+
+  .topBodyLeft, .topBodyRight{
+    width: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .topProfileItem{
+    width: 100%;
+  }
+
+  .movie-video video {
+    width: 100%;
+  }
+
+  .topInfoItemBody{
+    margin-left: 0;
+  }
+}
