@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<!-- ヘッダー -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const hamburger = document.querySelector('.hamburger-menu');
+        const sidebar = document.querySelector('.sidebar');
+    
+        hamburger.addEventListener('click', function() {
+            sidebar.classList.toggle('active'); 
+        });
+    });
+</script>
+
+<head>
+  <meta charset="utf-8">
+  <title>若宮 佑真のホームページ ｜ 好きなアニメ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/sidebar.css">
+  <link rel="stylesheet" href="css/top.css">
+  <link rel="stylesheet" href="css/subpage.css">
+</head>
+
+<body>
+<!-- ハンバーガーメニューアイコン -->
+<div class="hamburger-menu">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+<!-- サイドバー -->
+<div class="sidebar">
+  <ul>
+      <li class="sideLink sideLinkTop">
+          <a href="/">
+              トップ
+          </a>
+      </li>
+      <li class="sideLink sideLinkMovie">
+          <a href="/anime">
+              好きなアニメ
+          </a>
+      </li>
+      <li class="sideLink sideLinkDrama">
+          <a href="/movie">
+              好きなアニメ映画
+          </a>
+      </li>
+      <li class="sideLink sideLinkStage">
+          <a href="/comic">
+              好きな漫画
+          </a>
+      </li>
+      <li class="sideLink sideLinkPhotobook">
+          <a href="/photo">
+              写真集
+          </a>
+      </li>
+      <li class="sideLink sideLinkBook">
+          <a href="/works">
+              活動記録
+          </a>
+      </li>
+      <li class="sideLink sideLinkManager">
+          <a href="/admin">
+              管理者
+          </a>
+      </li>
+  </ul>
+</div>
+
+<!-- メインカラム -->
+<div class="mainColumnAnime">
+    <h1>
+        好きなアニメ
+    </h1>
+      <div class="subBody">
+          <div class="subBodyList">
+              <div>・20周年記念　ニューヨーク・アジアン映画祭「スター・アジア賞」受賞</div>
+          </div>
+          <table border>
+              <tr>
+                  <td>2006年4月3日 - 7月3日</td>
+                  <td>「涼宮ハルヒの憂鬱」</td>
+                  <td>テスト</td>
+              </tr>
+          </table>
+          <hr>
+      </div>
+
+  </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+table{
+  width: 100%;
+}
+
+.mainColumnAnime{
+  margin-left: 20%;
+  width: 100%;
+  background-image: url(../src/image/Anime.webp);
+  background-repeat: repeat;
+}
+
+.mainColumnMovie{
+  margin-left: 20%;
+  width: 100%;
+  background-image: url(../src/image/Movie.webp);
+  background-repeat: repeat;
+}
+
+.mainColumnComic{
+  margin-left: 20%;
+  width: 100%;
+  background-image: url(../src/image/Comic.webp);
+  background-repeat: repeat;
+}
+
+.mainColumnWorks{
+  margin-left: 20%;
+  width: 100%;
+  background-image: url(../src/image/Works.webp);
+  background-repeat: repeat;
+}
+
+.subBodyList{
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.subBody{
+  padding: 0 20%;
+}
+
+@media (max-width: 768px) {
+  .mainColumnAnime, .mainColumnMovie, .mainColumnComic, .mainColumnWorks{
+    margin-left: 0;
+  }
+
+  .subBody{
+    margin-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    flex-direction: column;
+  }
+
+  .topProfileItem{
+    width: 100%;
+  }
+
+  .movie-video video {
+    width: 100%;
+  }
+
+  .topInfoItemBody{
+    margin-left: 0;
+  }
+}
